@@ -1,0 +1,13 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <ClojureCodeStyleSettings>{
+  :clojure.core/defn 2
+  :cursive.formatting/align-binding-forms true
+}</ClojureCodeStyleSettings>
+    <codeStyleSettings language="Scala">
+      <arrangement>
+        <rules />
+      </arrangement>
+    </codeStyleSettings>
+  </code_scheme>
+</component>
