@@ -72,7 +72,7 @@
 
 (println (change-color gemstone-db :ruby "blue"))
 
-;retira 1 item do estoque
+;retira 1 item do estoque.
 (println (update-in gemstone-db [:ruby :stock] dec))
 
 ;adiciona uma venda para a `gem`
