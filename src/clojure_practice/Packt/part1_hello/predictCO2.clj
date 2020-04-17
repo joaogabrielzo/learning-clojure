@@ -1,4 +1,4 @@
-(ns clojure-practice.Packt.predictCO2)
+(ns clojure-practice.Packt.part1-hello.predictCO2)
 
 (def base-co2 382)
 (def base-year 2006)

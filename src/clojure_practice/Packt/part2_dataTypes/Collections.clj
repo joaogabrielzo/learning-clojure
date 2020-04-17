@@ -1,4 +1,4 @@
-(ns clojure-practice.Packt.Collections)
+(ns clojure-practice.Packt.part2-dataTypes.Collections)
 
 (def aMap {:first 1 :second 2 :third 3})                    ;maps são como HashMaps normais, definidos como {:key value}
 

@@ -1,4 +1,4 @@
-(ns clojure-practice.Packt.encodeString)
+(ns clojure-practice.Packt.part1-hello.encodeString)
 
 (defn encode-letter [s x]
   (let [code (Math/pow (+ x (int (first (char-array s)))) 2)]

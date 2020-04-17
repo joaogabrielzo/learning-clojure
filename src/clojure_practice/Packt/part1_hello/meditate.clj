@@ -1,4 +1,4 @@
-(ns clojure-practice.Packt.meditate
+(ns clojure-practice.Packt.part1-hello.meditate
   (:require [clojure.string :as str]))
 
 (defn meditate

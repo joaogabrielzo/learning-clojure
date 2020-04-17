@@ -1,4 +1,4 @@
-(ns clojure-practice.Packt.GemShop)
+(ns clojure-practice.Packt.part2-dataTypes.GemShop)
 
 
 (def gemstone-db {
