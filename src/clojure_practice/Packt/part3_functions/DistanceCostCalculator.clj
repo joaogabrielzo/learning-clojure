@@ -25,13 +25,17 @@
         time (/ dist walking-speed)]
     {:cost 0 :distance dist :duration time}))
 
-(def vehicles-cost {:porsche 0.12 :toyota 0.07 :tesla 0.02})
+(def vehicles-cost {
+                    :porsche (partial * 0.12 1.3)
+                    :toyota (partial * 0.07 1.3)
+                    :tesla (partial * 0.2 0.1)
+                    })
 
 (defmethod itinerary :driving
   [{from :from to :to vehicle :vehicle}]
   (let [dist (distance from to)
         car (vehicle vehicles-cost)
-        price (* dist car)
+        price (car dist)
         time (/ dist driving-speed)]
     {:cost price :distance dist :duration time}))
 
